@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "sources": [
+    {
+      "id": "national-geographic",
+      "name": "National Geographic",
+      "description": "Reporting our world daily: original nature and science news from National Geographic.",
+      "url": "http://news.nationalgeographic.com",
+      "category": "science",
+      "language": "en",
+      "country": "us"
+    },
+    {
+      "id": "new-scientist",
+      "name": "New Scientist",
+      "description": "Breaking science and technology news from around the world. Exclusive stories and expert analysis on space, technology, health, physics, life and Earth.",
+      "url": "https://www.newscientist.com/section/news",
+      "category": "science",
+      "language": "en",
+      "country": "us"
+    },
+    {
+      "id": "next-big-future",
+      "name": "Next Big Future",
+      "description": "Coverage of science and technology that have the potential for disruption, and analysis of plans, policies, and technology that enable radical improvement.",
+      "url": "https://www.nextbigfuture.com",
+      "category": "science",
+      "language": "en",
+      "country": "us"
+    }
+  ]
+}
