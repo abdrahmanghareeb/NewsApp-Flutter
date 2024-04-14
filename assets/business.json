@@ -1,131 +1,266 @@
 {
   "status": "ok",
-  "sources": [
+  "totalResults": 147,
+  "articles": [
     {
-      "id": "argaam",
-      "name": "Argaam",
-      "description": "ارقام موقع متخصص في متابعة سوق الأسهم السعودي تداول - تاسي - مع تغطيه معمقة لشركات واسعار ومنتجات البتروكيماويات , تقارير مالية الاكتتابات الجديده ",
-      "url": "https://www.argaam.com",
-      "category": "business",
-      "language": "ar",
-      "country": "sa"
+      "source": {
+        "id": null,
+        "name": "Ambcrypto.com"
+      },
+      "author": "Himalay Patel",
+      "title": "SHIB, WIF, PEPE prices see +10% losses - Is memecoin season over for now? - AMBCrypto News",
+      "description": "SHIB, PEPE, WIF all fell and fell significantly. How is the sector holding up now?",
+      "url": "https://ambcrypto.com/shib-wif-pepe-prices-see-10-losses-is-memecoin-season-over-for-now/",
+      "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/04/Memecoin-bears-1000x600.webp",
+      "publishedAt": "2024-04-13T20:01:15Z",
+      "content": "<ul><li>Memecoin sector took a massive hit after SHIB, WIF and PEPE saw corrections</li><li>Traders were particularly bearish towards PEPE</li></ul>The memecoin sector has seen significant growth sin… [+2580 chars]"
     },
     {
-      "id": "australian-financial-review",
-      "name": "Australian Financial Review",
-      "description": "The Australian Financial Review reports the latest news from business, finance, investment and politics, updated in real time. It has a reputation for independent, award-winning journalism and is essential reading for the business and investor community.",
-      "url": "http://www.afr.com",
-      "category": "business",
-      "language": "en",
-      "country": "au"
+      "source": {
+        "id": null,
+        "name": "Fox Business"
+      },
+      "author": "Breck Dumas",
+      "title": "Elon Musk hosts Argentine President Javier Milei at Tesla headquarters - Fox Business",
+      "description": "Elon Musk met with Argentina's new president, Javier Milei, this week at Tesla's Austin, Texas, headquarters, where the two reportedly discussed the potential for lithium projects.",
+      "url": "https://www.foxbusiness.com/business-leaders/elon-musk-argentine-president-javier-milei-tesla-headquarters",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/04/0/0/musk-javier-milei.jpg?ve=1&tl=1",
+      "publishedAt": "2024-04-13T18:42:00Z",
+      "content": "Tesla CEO Elon Musk hosted Argentine President Javier Milei at the electric vehicle giant's headquarters in Austin, Texas, on Friday, where the pair reportedly agreed to work together to promote free… [+2115 chars]"
     },
     {
-      "id": "bloomberg",
-      "name": "Bloomberg",
-      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News.",
-      "url": "http://www.bloomberg.com",
-      "category": "business",
-      "language": "en",
-      "country": "us"
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "AP",
+      "title": "Momofuku backs down from defending its 'chile crunch' trademark after outcry by small businesses | Mint - Mint",
+      "description": "Momofuku backs down from defending its 'chile crunch' trademark after outcry by small businesses",
+      "url": "https://www.livemint.com/news/momofuku-backs-down-from-defending-its-chile-crunch-trademark-after-outcry-by-small-businesses-11713031963294.html",
+      "urlToImage": "https://images.livemint.com/img/2018/12/28/1600x900/News_-_world_1545994908237.jpg",
+      "publishedAt": "2024-04-13T18:12:42Z",
+      "content": "NEW YORK (AP) Momofuku, a food and restaurant brand started by food mogul David Chang, said it won't defend its trademark on the name chile crunch\" after it sparked an outcry by sending cease-and-des… [+3352 chars]"
     },
     {
-      "id": "business-insider",
-      "name": "Business Insider",
-      "description": "Business Insider is a fast-growing business site with deep financial, media, tech, and other industry verticals. Launched in 2007, the site is now the largest business news site on the web.",
-      "url": "http://www.businessinsider.com",
-      "category": "business",
-      "language": "en",
-      "country": "us"
+      "source": {
+        "id": null,
+        "name": "Decrypt"
+      },
+      "author": "Mat Di Salvo",
+      "title": "This Week in Coins: Bitcoin Brings Entire Crypto Market Down One Week Before Halving - Decrypt",
+      "description": "The W token took one of the biggest Ls, down over 30% over the past seven days.",
+      "url": "https://decrypt.co/226119/this-week-in-coins-bitcoin-brings-down-market-week-before-halving",
+      "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2019/12/shutterstock_1038671149-gID_7.jpg",
+      "publishedAt": "2024-04-13T17:30:42Z",
+      "content": "Illustration by Mitchell Preffer for Decrypt.\r\nWith a week left before Bitcoin's long-awaited halving event, the top coin's price is downdown bad.\r\nRight now, it's priced below $67,000 per coin, acco… [+1623 chars]"
     },
     {
-      "id": "business-insider-uk",
-      "name": "Business Insider (UK)",
-      "description": "Business Insider is a fast-growing business site with deep financial, media, tech, and other industry verticals. Launched in 2007, the site is now the largest business news site on the web.",
-      "url": "http://uk.businessinsider.com",
-      "category": "business",
-      "language": "en",
-      "country": "gb"
+      "source": {
+        "id": null,
+        "name": "Crypto.news"
+      },
+      "author": "Mohammad Shahidullah",
+      "title": "Iran-Israel conflict, funding rates trigger $860m sell-off - crypto.news",
+      "description": "Historically, geopolitical instability tends to drive investors away from riskier assets. That's what happened Friday with crypto as Iran-Israel tensions escalated.",
+      "url": "https://crypto.news/iran-israel-conflict-funding-rates-860m-sell-off/",
+      "urlToImage": "https://crypto.news/app/uploads/2023/05/crypto-news-flag-of-Israel-front-side-view-blurry-virtaul-space-background-low-poly-style.jpeg",
+      "publishedAt": "2024-04-13T16:55:51Z",
+      "content": "Fridays crypto market liquidation was largely triggered by heightening fears of conflict between Iran and Israel, according to QCP Capital.\r\nHistorically, geopolitical instability tends to drive inve… [+1448 chars]"
     },
     {
-      "id": "die-zeit",
-      "name": "Die Zeit",
-      "description": "Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie auf ZEIT ONLINE.",
-      "url": "http://www.zeit.de/index",
-      "category": "business",
-      "language": "de",
-      "country": "de"
+      "source": {
+        "id": null,
+        "name": "Bitcoinist"
+      },
+      "author": "Scott Matherson",
+      "title": "Bullish Resurgence: Crypto Analyst Predicts Where Dogecoin Price Will Be On DOGE Day - Bitcoinist",
+      "description": "A crypto analyst has revealed what to expect from Dogecoin’s (DOGE) price on April 20, which happens to be DOGE day. This analyst’s bullish prediction",
+      "url": "https://bitcoinist.com/analyst-predicts-where-dogecoin-price-will-be/",
+      "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/04/a_4c1141.jpg",
+      "publishedAt": "2024-04-13T16:30:31Z",
+      "content": "A crypto analyst has revealed what to expect from Dogecoins (DOGE) price on April 20, which happens to be DOGE day. This analysts bullish prediction undoubtedly adds to the excitement as the DOGE com… [+2498 chars]"
     },
     {
-      "id": "financial-post",
-      "name": "Financial Post",
-      "description": "Find the latest happenings in the Canadian Financial Sector and stay up to date with changing trends in Business Markets. Read trading and investing advice from professionals.",
-      "url": "https://financialpost.com",
-      "category": "business",
-      "language": "en",
-      "country": "ca"
+      "source": {
+        "id": null,
+        "name": "KABC-TV"
+      },
+      "author": null,
+      "title": "Faced with possibly paying for news, Google removes links to California news sites for some users - KABC-TV",
+      "description": "Google began removing California news websites from some people's search results, a test that acted as a threat should the state Legislature pass a law requiring the search giant to pay media companies for linking to their content.",
+      "url": "https://abc7.com/google-removes-links-to-california-news-sites-for-some-users/14657148/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/14176372_AP23346395871637.jpg?w=1600",
+      "publishedAt": "2024-04-13T15:48:37Z",
+      "content": "SACRAMENTO, Calif. -- Google on Friday began removing California news websites from some people's search results, a test that acted as a threat should the state Legislature pass a law requiring the s… [+6048 chars]"
     },
     {
-      "id": "fortune",
-      "name": "Fortune",
-      "description": "Fortune 500 Daily and Breaking Business News",
-      "url": "http://fortune.com",
-      "category": "business",
-      "language": "en",
-      "country": "us"
+      "source": {
+        "id": null,
+        "name": "Ambcrypto.com"
+      },
+      "author": "Himalay Patel",
+      "title": "Ethereum: Short-term pain or long-term gains for ETH holders - AMBCrypto News",
+      "description": "ETH fell on the charts, precipitating a fall on other fronts too. However, it's not all bad news...",
+      "url": "https://ambcrypto.com/ethereum-short-term-pain-or-long-term-gains-for-eth-holders/",
+      "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/04/Ethereum-red-3-1000x600.webp",
+      "publishedAt": "2024-04-13T15:01:11Z",
+      "content": "<ul><li>Ethereum’s price fell while network growth and velocity plummeted</li><li>On a macro level, Ethereum’s network continues to see growth</li></ul>Ethereum [ETH] recorded a massive decline in pr… [+2572 chars]"
     },
     {
-      "id": "handelsblatt",
-      "name": "Handelsblatt",
-      "description": "Auf Handelsblatt lesen sie Nachrichten über Unternehmen, Finanzen, Politik und Technik. Verwalten Sie Ihre Finanzanlagen mit Hilfe unserer Börsenkurse.",
-      "url": "http://www.handelsblatt.com",
-      "category": "business",
-      "language": "de",
-      "country": "de"
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Bailey Lipschultz",
+      "title": "Donald Trump in Line for Massive Bonus Even as Trump Media (DJT) Slumps - Bloomberg",
+      "description": "A rocky start for Trump Media &amp; Technology Group Corp. shares has wiped out $4.5 billion in market value in just a couple of weeks. But it will have to lose a lot more than that to put at risk the massive special bonus due to the former president and his …",
+      "url": "https://www.bloomberg.com/news/articles/2024-04-13/trump-in-line-for-extra-spac-payday-despite-4-5-billion-selloff",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwqQWV183au0/v1/1200x800.jpg",
+      "publishedAt": "2024-04-13T15:00:07Z",
+      "content": "A rocky start for Trump Media &amp; Technology Group Corp. shares has wiped out $4.5 billion in market value in just a couple of weeks. But it will have to lose a lot more than that to put at risk th… [+602 chars]"
     },
     {
-      "id": "il-sole-24-ore",
-      "name": "Il Sole 24 Ore",
-      "description": "Notizie di economia, cronaca italiana ed estera, quotazioni borsa in tempo reale e di finanza, norme e tributi, fondi e obbligazioni, mutui, prestiti e lavoro a cura de Il Sole 24 Ore.",
-      "url": "https://www.ilsole24ore.com",
-      "category": "business",
-      "language": "it",
-      "country": "it"
+      "source": {
+        "id": null,
+        "name": "WGRZ.com"
+      },
+      "author": "WGRZ Staff",
+      "title": "West Seneca Mega Millions winner | wgrz.com - WGRZ.com",
+      "description": "A second-prize winning ticket was sold at the Wegmans on Orchard Park Road in West Seneca.",
+      "url": "https://www.wgrz.com/article/news/lottery/money-winner-lottery-mega-millions-second-prize/71-24b931b7-7639-441e-afbe-8081c3101180",
+      "urlToImage": "https://media.wgrz.com/assets/WGRZ/images/4a29f6e3-776a-48b8-9f00-03747961d0f2/4a29f6e3-776a-48b8-9f00-03747961d0f2_1140x641.jpg",
+      "publishedAt": "2024-04-13T14:06:00Z",
+      "content": "WEST SENECA, N.Y. The New York State Lottery announced on Friday that a winning Mega Millions ticket was sold in Western New York. \r\nA second-prize winning ticket was sold at the Wegmans on Orchard P… [+397 chars]"
     },
     {
-      "id": "info-money",
-      "name": "InfoMoney",
-      "description": "No InfoMoney você encontra tudo o que precisa sobre dinheiro. Ações, investimentos, bolsas de valores e muito mais. Aqui você encontra informação que vale dinheiro!",
-      "url": "https://www.infomoney.com.br",
-      "category": "business",
-      "language": "pt",
-      "country": "br"
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Celia Fernandez",
+      "title": "Couple pays $1,600 a month for a 1-bedroom apartment in Brooklyn—they have 150 houseplants: Take a look inside - CNBC",
+      "description": "Vionna Wai and her husband Chucky Hui share a two-family home with his parents in Bensonhurst, Brooklyn.",
+      "url": "https://www.cnbc.com/2024/04/13/unlocked-one-bedroom-apartment-in-brooklyn-look-inside.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107400018-1712856178905-wai_and_hui_TB.jpg?v=1712857173&w=1920&h=1080",
+      "publishedAt": "2024-04-13T14:05:01Z",
+      "content": "In 2020, Vionna Wai, 30, and her husband, Chucky Hui, 29, moved into a two-family home in Bensonhurst, Brooklyn, with his parents.\r\nThe couple pays $1,600 a month to live in the one-bedroom, one-bath… [+3460 chars]"
     },
     {
-      "id": "les-echos",
-      "name": "Les Echos",
-      "description": "Toute l'actualité économique, financière et boursière française et internationale sur Les Echos.fr",
-      "url": "https://www.lesechos.fr",
-      "category": "business",
-      "language": "fr",
-      "country": "fr"
+      "source": {
+        "id": null,
+        "name": "Hindustan Times"
+      },
+      "author": "Trisha Sengupta",
+      "title": "How to be a market leader in your industry? Mamaearth’s Ghazal Alagh gives 6 tips - Hindustan Times",
+      "description": "Mamaearth’s Ghazal Alagh listed six points to discuss how an individual can be a market leader in their industry. The post has gone viral. | Trending",
+      "url": "https://www.hindustantimes.com/trending/how-to-be-a-market-leader-in-your-industry-mamaearth-s-ghazal-alagh-gives-6-tips-101713013405885.html",
+      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/04/13/1600x900/How_To_be_Market_Leader_Ghazal_Alagh_Mamaearth_1713013480356_1713013480562.jpg",
+      "publishedAt": "2024-04-13T14:00:06Z",
+      "content": "Mamaearths Ghazal Alagh took to X to share a few tips with her followers. In her post, she listed how one can become a market leader. She also added, Stop relying on industry assumptions.\r\nMamaearths… [+1056 chars]"
     },
     {
-      "id": "the-wall-street-journal",
-      "name": "The Wall Street Journal",
-      "description": "WSJ online coverage of breaking news and current headlines from the US and around the world. Top stories, photos, videos, detailed analysis and in-depth reporting.",
-      "url": "http://www.wsj.com",
-      "category": "business",
-      "language": "en",
-      "country": "us"
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Kurt Knutsson, CyberGuy Report",
+      "title": "How scammers have sunk to a new low with an AI obituary scam targeting the grieving - Fox News",
+      "description": "Scammers have stooped to using artificial intelligence to scan obituary websites to create fake obituary websites to target the grieving.",
+      "url": "https://www.foxnews.com/tech/how-scammers-have-sunk-to-new-low-with-ai-obituary-scam-targeting-grieving",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/04/1-How-scammers-have-sunk-to-a-new-low-with-an-AI-obituary-scam-targeting-the-grieving-1.jpg",
+      "publishedAt": "2024-04-13T14:00:00Z",
+      "content": "As if scammers couldn't sink any lower, there's a new online scam taking advantage of grieving people. \r\nIt's a strange pirate scam that uses artificial intelligence to scrape data to build fake obit… [+5819 chars]"
     },
     {
-      "id": "wirtschafts-woche",
-      "name": "Wirtschafts Woche",
-      "description": "Das Online-Portal des führenden Wirtschaftsmagazins in Deutschland. Das Entscheidende zu Unternehmen, Finanzen, Erfolg und Technik.",
-      "url": "http://www.wiwo.de",
-      "category": "business",
-      "language": "de",
-      "country": "de"
+      "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+      },
+      "author": "Ahjané Forbes",
+      "title": "Powerball tries to explain $1.3 billion jackpot delay, won't ID state - USA TODAY",
+      "description": "If you're wondering why last week's Powerball drawing for a $1.3 billion jackpot was delayed, keep wondering. Powerball isn't providing many answers.",
+      "url": "https://www.usatoday.com/story/money/lottery/2024/04/13/powerball-jackpot-delay-explanation-attempt/73303018007/",
+      "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/02/26/USAT/72748023007-powerballtopper-2.png?crop=3755,2112,x554,y366&width=3200&height=1800&format=pjpg&auto=webp",
+      "publishedAt": "2024-04-13T13:11:43Z",
+      "content": "The most anticipated Powerball drawing on April 6 was worth an estimated $1.326 billion, the fourth largest jackpot in its history, caught players by surprise when the lottery encountered an issue.\r\n… [+4004 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Nikita Prasad",
+      "title": "Oil settles 1% higher on Middle East crisis yet posts weekly loss on bearish demand outlook; Brent at $90/bbl | Mint - Mint",
+      "description": "Brent crude futures settled up 71 cents at $90.45 per barrel, while US West Texas Intermediate (WTI) crude futures rose 64 cents to $85.66",
+      "url": "https://www.livemint.com/market/commodities/oil-settles-1-higher-on-middle-east-crisis-yet-posts-weekly-loss-on-bearish-demand-outlook-brent-at-90bbl-11713012984782.html",
+      "urlToImage": "https://www.livemint.com/lm-img/img/2024/04/13/1600x900/Refining_1680720239808_1713013323616.jpg",
+      "publishedAt": "2024-04-13T13:05:01Z",
+      "content": "Oil prices rose around one per cent in the previous session on geopolitical tensions in the Middle East but posted a weekly loss over a bearish world oil demand growth forecast from the International… [+4679 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Rob Lenihan",
+      "title": "Analyst updates Nvidia stock price target after stocks tumble - TheStreet",
+      "description": "This is what could happen next to Nvidia shares.",
+      "url": "https://www.thestreet.com/investing/analyst-updates-nvidia-stock-price-target-after-stocks-tumble",
+      "urlToImage": "https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjA0OTM0MjIxNzIwOTg2OTcw/jensen-huang-president-of-nvidia-holding-the-grace-hopper.jpg",
+      "publishedAt": "2024-04-13T13:03:00Z",
+      "content": "There's little doubt about what company currently rules the artificial intelligence universe.\r\nNvidia  (NVDA)  owns most of the high-end AI chip market and has seen its stock price skyrocket 209% ove… [+4447 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Abha Bhattarai, Tyler Pager",
+      "title": "High inflation and interest rates are coming at a bad time for Biden - The Washington Post",
+      "description": "Higher inflation could lead the Federal Reserve to keep interest rates — and mortgage rates — elevated until late in the year, eluding political gain for Biden.",
+      "url": "https://www.washingtonpost.com/business/2024/04/13/biden-inflation-federal-reserve/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OPXBMTG3LEYIZRCA27QGS7F4WY_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-13T13:00:00Z",
+      "content": "The booming economy is exacerbating a key vulnerability for President Biden heading into the height of campaign season, as inflation and interest rates could remain higher until deep into the final w… [+9134 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Milan Vaishnav",
+      "title": "Dalal Street Week Ahead: Market momentum likely to fade, time to protect profits - The Economic Times",
+      "description": "The markets may see a soft start to the week on Monday. The levels of 22650 and 22775 are likely to act as potential resistance points. The supports come in at 22400 and22280 levels.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-week-ahead-market-momentum-likely-to-fade-time-to-protect-profits/articleshow/109272104.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-109272216,width-1200,height-630,imgsize-1325353,overlay-etmarkets/photo.jpg",
+      "publishedAt": "2024-04-13T12:18:44Z",
+      "content": "Over the previous week, the markets were expected to inch higher; however, at the same time, while it was expected that incremental highs may be formed, it was also expected that a runaway move would… [+4222 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Viewfromthewing.com"
+      },
+      "author": "Gary Leff",
+      "title": "Southwest Airlines Maintenance Error Caused Engine Cowl To Detach, Emergency Landing In Denver - View from the Wing",
+      "description": "After Sunday morning's incident where an engine cowling detached off of a Southwest Airlines Boeing 737-800 shortly after takeoff from Denver, the airline now knows what happened. Someone screwed up.",
+      "url": "https://viewfromthewing.com/southwest-airlines-maintenance-error-caused-engine-cowl-to-detach-emergency-landing-in-denver/",
+      "urlToImage": "https://viewfromthewing.com/wp-content/uploads/2024/04/southwest-engine.jpg",
+      "publishedAt": "2024-04-13T12:04:02Z",
+      "content": "After Sunday morning’s incident where an engine cowling detached off of a Southwest Airlines Boeing 737-800 shortly after takeoff from Denver, the airline now knows what happened. Someone screwed up.… [+1848 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bikewale.com"
+      },
+      "author": "Rishabh Bhaskar",
+      "title": "KTM, Husqvarna motorcycles available with 5 year warranty - BikeWale",
+      "description": "KTM India has announced that all KTM and Husqvarna motorcycles that are purchased from 1 April onwards will be available with a total of 5 years warranty. This includes a standard warranty of 2 years or 30,000km plus 3 years or 45,000km extended warranty.",
+      "url": "https://www.bikewale.com/news/ktm-husqvarna-motorcycles-available-with-5-year-warranty/",
+      "urlToImage": "https://imgd.aeplcdn.com/642x336/n/cw/ec/174871/ktm-duke-390-right-front-three-quarter0.jpeg?isig=0&q=80",
+      "publishedAt": "2024-04-13T11:53:33Z",
+      "content": "-Offered free of cost\r\n-One year roadside assistance included\r\n-Effective on all KTM, Husqvarna models purchased from 1 April\r\nKTM India has announced that all KTM and Husqvarna motorcycles that are … [+1501 chars]"
     }
   ]
 }
