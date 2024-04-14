@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       title: 'News App',
       theme: ThemeData(
         primarySwatch: Colors.orange,
+        progressIndicatorTheme: ProgressIndicatorThemeData(color: Colors.orange),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(shape:
         RoundedRectangleBorder( // <= Change BeveledRectangleBorder to RoundedRectangularBorder
           borderRadius: BorderRadius.only(

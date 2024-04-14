@@ -28,15 +28,27 @@ class newsCubit  extends Cubit<newsStates>{
   int currentIndex = 0 ;
   void changeBottomNavigationBarSate(index){
     currentIndex = index;
+    getArticles();
     emit(BottomNavigationBarSate());
   }
   // fetching articles
   List<dynamic> businessArticles =[] ;
   List<dynamic> sportsArticles =[];
   List<dynamic> scienceArticles =[];
+  //get date based on the current screen
+  Future<void> getArticles() async{
+    emit(loadingState());
+    if(currentIndex == 0){
+      getBusinessArticles();
+    }else if (currentIndex ==1){
+      getSportsArticles();
+    }else{
+      getScienceArticles();
+    }
+  }
   Future<void> getBusinessArticles() async{
     emit(loadingState());
-      await DioHelper.getData("v2/top-headlines", {"category" : "business" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
+      await DioHelper.getData("v2/top-headlines", {"category" : "business" ,"language" : "en", "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
         .then((value)
       { businessArticles = value.data['articles'];
       print(businessArticles[1]['author']);
@@ -47,8 +59,8 @@ class newsCubit  extends Cubit<newsStates>{
       });
   }
   Future<void> getSportsArticles() async{
-    emit(loadingState());
-    await DioHelper.getData("v2/top-headlines", {"category" : "sports" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
+    // emit(loadingState());
+    await DioHelper.getData("v2/top-headlines", {"category" : "sports" ,"language" : "en", "apiKey" : "22414d9f32d44c549beb760cc9d48f12"})
         .then((value)
     { sportsArticles = value.data['articles'];
     print(sportsArticles[1]['author']);
@@ -59,8 +71,8 @@ class newsCubit  extends Cubit<newsStates>{
     });
   }
   Future<void> getScienceArticles() async{
-    emit(loadingState());
-    await DioHelper.getData("v2/top-headlines", {"category" : "science" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
+    // emit(loadingState());
+    await DioHelper.getData("v2/top-headlines", {"category" : "science" ,"language" : "en", "apiKey" : "22414d9f32d44c549beb760cc9d48f12"})
         .then((value)
     {  scienceArticles = value.data['articles'];
     print(scienceArticles[1]['author']);
@@ -72,15 +84,3 @@ class newsCubit  extends Cubit<newsStates>{
   }
 
 }
-
-
-// response shape
-/*
-{source: {id: google-news, name: Google News}, author: Abbotsford News,
-title: Chilliwack engineer launches inflatable 'space habitat' with Elon Musk's SpaceX - Abbotsford News,
-description: null,
-url: https://news.google.com/rss/articles/CBMie2h0dHA6Ly93d3cuYWJieW5ld3MuY29tL2xvY2FsLWJ1c2luZXNzL2NoaWxsaXdhY2stZW5naW5lZXItbGF1bmNoZXMtaW5mbGF0YWJsZS1zcGFjZS1oYWJpdGF0LXdpdGgtZWxvbi1tdXNrcy1zcGFjZXgtNzM0MzQyMNIBAA?oc=5,
-urlToImage: null,
-publishedAt: 2024-04-13T12:30:00Z,
-content: null}
-*/

@@ -9,7 +9,7 @@ class newsHomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => newsCubit(),
+      create: (BuildContext context) => newsCubit()..getArticles(),
       child: BlocConsumer<newsCubit , newsStates>(
         listener: (BuildContext context, newsStates state) {  },
         builder:(context, state) {

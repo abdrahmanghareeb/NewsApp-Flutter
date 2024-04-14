@@ -1,9 +1,19 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-class science extends StatelessWidget{
+import '../shared/components/components.dart';
+import '../shared/cubit/cubit.dart';
+import '../shared/cubit/states.dart';
+
+class science extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text("science");
+    return BlocConsumer<newsCubit, newsStates>(
+      builder: (context, state) {
+        var cubit = newsCubit.get(context);
+        return articlesScreenBuilder(list: cubit.scienceArticles);
+      },
+      listener: (context, state) {},
+    );
   }
-
 }
