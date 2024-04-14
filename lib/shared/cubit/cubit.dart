@@ -62,7 +62,7 @@ class newsCubit  extends Cubit<newsStates>{
     emit(loadingState());
     await DioHelper.getData("v2/top-headlines", {"category" : "science" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
         .then((value)
-    { scienceArticles = value.data['articles'];
+    {  scienceArticles = value.data['articles'];
     print(scienceArticles[1]['author']);
     emit(scienceGetState());
     }).onError((error, stackTrace) {
