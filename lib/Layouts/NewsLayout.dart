@@ -32,16 +32,13 @@ class newsHomePage extends StatelessWidget{
                 elevation: 50,
                 items: cubit.bottomNavigationIcons
             ),
-            floatingActionButton: FloatingActionButton(onPressed: (){
-              // DioHelper.getData("v2/top-headlines", {"category" : "business" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
-              //     .then((value) => print(value.data.toString())).onError((error, stackTrace) => print(error.toString()));
-              DioHelper.getData("v2/top-headlines", {"category" : "sports" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
-                  .then((value) => print(value.data['articles'][1]['source']['name'])).onError((error, stackTrace) => print(error.toString()));
-              // DioHelper.getData("v2/top-headlines", {"category" : "science" , "apiKey" : "22414d9f32d44c549beb760cc9d48f12" ,})
-              //     .then((value) => print(value.data.toString())).onError((error, stackTrace) => print(error.toString()));
-            },
-            child: Icon(Icons.add),
-            ),
+            // floatingActionButton: FloatingActionButton(onPressed: (){
+            //   cubit.getBusinessArticles();
+            //   cubit.getSportsArticles();
+            //   cubit.getScienceArticles();
+            // },
+            // child: Icon(Icons.add),
+            // ),
           );
         },
       ),
