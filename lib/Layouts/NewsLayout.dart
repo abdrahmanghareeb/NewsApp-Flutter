@@ -20,8 +20,6 @@ class newsHomePage extends StatelessWidget{
             actions: [
               IconButton(icon: Icon(CupertinoIcons.search), onPressed: () {  },),
               IconButton(icon: Icon(Icons.brightness_4_outlined), onPressed: () {
-                isDark = !isDark;
-                print(isDark);
                 cubit.changeAppThemeMode();
               },),
             ],

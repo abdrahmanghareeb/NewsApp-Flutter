@@ -4,6 +4,12 @@ abstract class newsStates {
 class intialSate extends newsStates{
 
 }
+class setCasheState extends newsStates{
+
+}
+class getCasheState extends newsStates{
+
+}
 class appThemeModeState extends newsStates{
 
 }
