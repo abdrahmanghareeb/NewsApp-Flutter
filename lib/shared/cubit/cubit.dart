@@ -23,7 +23,10 @@ class newsCubit  extends Cubit<newsStates>{
     BottomNavigationBarItem(icon: Icon(Icons.science_outlined) , label: "science"),
     BottomNavigationBarItem(icon: Icon(Icons.settings) , label: "settings")
   ];
-
+  //change Theme mode
+  void changeAppThemeMode(){
+    emit(appThemeModeState());
+  }
   //change screen
   int currentIndex = 0 ;
   void changeBottomNavigationBarSate(index){

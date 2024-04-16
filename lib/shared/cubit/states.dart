@@ -4,6 +4,9 @@ abstract class newsStates {
 class intialSate extends newsStates{
 
 }
+class appThemeModeState extends newsStates{
+
+}
 class BottomNavigationBarSate extends newsStates{
 
 }
