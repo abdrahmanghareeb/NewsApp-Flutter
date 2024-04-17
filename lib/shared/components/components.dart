@@ -2,7 +2,8 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget articleCard({@required image,@required title,@required date, @required context}) {
+Widget articleCard(
+    {@required image, @required title, @required date, @required context}) {
   return Padding(
     padding: const EdgeInsets.all(15.0),
     child: Container(
@@ -16,25 +17,29 @@ Widget articleCard({@required image,@required title,@required date, @required co
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 image: DecorationImage(
-                    fit: BoxFit.cover,
-                    image:
-                    NetworkImage(
-                        "$image"))),
+                    fit: BoxFit.cover, image: NetworkImage("$image"))),
           ),
-          SizedBox(width: 10,),
+          SizedBox(
+            width: 10,
+          ),
           Expanded(
             child: Column(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(child: Text(
-                    "$title",
-                    maxLines: 4,
-                    overflow: TextOverflow.ellipsis,
+                  Expanded(
+                    child: Text(
+                      "$title",
+                      maxLines: 4,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.bodyLarge,
+                    ),
+                  ),
+                  Text(
+                    "$date",
                     style: Theme.of(context).textTheme.bodyLarge,
-                  ),),
-                  Text("$date", style: Theme.of(context).textTheme.bodyLarge,)
+                  )
                 ]),
           )
         ],
@@ -43,23 +48,31 @@ Widget articleCard({@required image,@required title,@required date, @required co
   );
 }
 
-Widget articlesScreenBuilder({@required list , @required context}){
+Widget articlesScreenBuilder(
+    {@required list, @required context, emptySearchField}) {
   return ConditionalBuilder(
-    condition: list.isNotEmpty,
-    builder:(context) => ListView.separated(
-      physics: BouncingScrollPhysics(),
-        itemBuilder: (context, index) =>
-            articleCard(context: context,image: list[index]['urlToImage'], title: list[index]['title'] , date : list[index]['publishedAt']),
-        separatorBuilder: (context, index) => Padding(
-          padding:
-          const EdgeInsetsDirectional.symmetric(horizontal: 15),
-          child: Container(
-            width: double.infinity,
-            height: 1,
-            color: Colors.blueGrey,
-          ),
-        ),
-        itemCount: list.length),
-    fallback: (context) => Center(child: CircularProgressIndicator()),
+      condition: list.isNotEmpty,
+      builder: (context) => ListView.separated(
+          physics: BouncingScrollPhysics(),
+          itemBuilder: (context, index) => articleCard(
+              context: context,
+              image: list[index]['urlToImage'],
+              title: list[index]['title'],
+              date: list[index]['publishedAt']),
+          separatorBuilder: (context, index) => seperatorBuilder(),
+          itemCount: list.length),
+      fallback: (context) => !emptySearchField
+          ? const Center(child: CircularProgressIndicator())
+          : SizedBox(width: 1));
+}
+
+Widget seperatorBuilder() {
+  return Padding(
+    padding: const EdgeInsetsDirectional.symmetric(horizontal: 15),
+    child: Container(
+      width: double.infinity,
+      height: 1,
+      color: Colors.blueGrey,
+    ),
   );
 }

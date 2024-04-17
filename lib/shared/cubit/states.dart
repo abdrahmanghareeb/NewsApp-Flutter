@@ -40,3 +40,10 @@ class scienceGetErrorState extends newsStates{
   final error;
   scienceGetErrorState(this.error);
 }
+class searchGetState extends newsStates{
+
+}
+class searchGetErrorState extends newsStates{
+  final error;
+  searchGetErrorState(this.error);
+}
