@@ -11,6 +11,8 @@ import 'package:news_app/shared/cubit/states.dart';
 import 'package:news_app/shared/network/local/CasheHelper.dart';
 import 'package:news_app/shared/network/remote/DioHelper.dart';
 
+import 'Modules/search.dart';
+
 Future<void> main() async {
   //to mage sure every thing is initialized before run App
   WidgetsFlutterBinding.ensureInitialized();

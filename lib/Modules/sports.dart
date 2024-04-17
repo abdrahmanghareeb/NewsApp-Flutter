@@ -10,7 +10,7 @@ class sports extends StatelessWidget{
     return BlocConsumer<newsCubit, newsStates>(
       builder: (context, state) {
         var cubit = newsCubit.get(context);
-        return articlesScreenBuilder(context: context , list: cubit.sportsArticles);
+        return articlesScreenBuilder(context: context , list: cubit.sportsArticles , emptySearchField: false);
       },
       listener: (context, state) {},
     );
