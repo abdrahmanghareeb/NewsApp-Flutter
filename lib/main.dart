@@ -97,6 +97,7 @@ class MyApp extends StatelessWidget {
             appBarTheme: AppBarTheme(
                 titleTextStyle: TextStyle(color: Colors.white70, fontSize: 20),
                 actionsIconTheme: IconThemeData(color: Colors.white70),
+                iconTheme: IconThemeData(color: Colors.white70),
                 backgroundColor: HexColor("#0A0A0A"),
                 systemOverlayStyle: SystemUiOverlayStyle(
                   statusBarColor: HexColor("#0A0A0A"),
