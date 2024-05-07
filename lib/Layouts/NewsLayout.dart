@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/Modules/search.dart';
-import 'package:news_app/shared/cubit/cubit.dart';
-import 'package:news_app/shared/cubit/states.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/cubit.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/states.dart';
 import 'package:news_app/shared/network/remote/DioHelper.dart';
 
 import '../shared/constants/constants.dart';
@@ -11,10 +11,10 @@ import '../shared/constants/constants.dart';
 class newsHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<newsCubit, newsStates>(
-      listener: (BuildContext context, newsStates state) {},
+    return BlocConsumer<News_Cubit, News_State>(
+      listener: (BuildContext context, News_State state) {},
       builder: (context, state) {
-        var cubit = newsCubit.get(context);
+        var cubit = News_Cubit.get(context);
         return Scaffold(
             appBar: AppBar(
               title: Text("News App"),

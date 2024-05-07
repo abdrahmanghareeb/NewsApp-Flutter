@@ -1,17 +1,20 @@
+import 'dart:io';
+
 import 'package:bloc/bloc.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:news_app/Layouts/NewsLayout.dart';
-import 'package:news_app/shared/constants/constants.dart';
-import 'package:news_app/shared/cubit/cubit.dart';
-import 'package:news_app/shared/cubit/observer.dart';
-import 'package:news_app/shared/cubit/states.dart';
+import 'package:news_app/Layouts/Login.dart';
+import 'package:news_app/shared/cubit/Auth_Cubit/auth_cubit.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/cubit.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/states.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/observer.dart';
 import 'package:news_app/shared/network/local/CasheHelper.dart';
 import 'package:news_app/shared/network/remote/DioHelper.dart';
-
-import 'Modules/search.dart';
+import 'Layouts/Register.dart';
+import 'Layouts/Splash.dart';
 
 Future<void> main() async {
   //to mage sure every thing is initialized before run App
@@ -21,6 +24,16 @@ Future<void> main() async {
   DioHelper.dio;
   await CasheHelper.init();
   bool? isDarkCacheValue = CasheHelper.getDarkKeyBool(key: "isDark");
+
+  if(Platform.isAndroid){
+    await Firebase.initializeApp(
+        options: const FirebaseOptions(
+            apiKey: "AIzaSyCkdp3wXrBn-UKzVY4-N3W-vBakaOGEtx8",
+            appId: "1:3091851703:android:c396b18ef297c05ea96032",
+            messagingSenderId: "3091851703",
+            projectId: "com.example.hotel_booking"));
+  }
+
   // it is not legal to pass nullable isDarkCacheValue variable to MyApp constructor
   // so Dummy is here with a default value of false
   // false will make the application to in the light mode
@@ -54,13 +67,21 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => newsCubit()..getArticles()..changeAppThemeMode(),
-      child: BlocConsumer<newsCubit, newsStates>(
+    return MultiBlocProvider(
+  providers: [
+    BlocProvider(
+      create: (context) => News_Cubit()..getArticles()..changeAppThemeMode(),
+),
+    BlocProvider(
+      create: (context) => AuthCubit(),
+    ),
+  ],
+  child: BlocConsumer<News_Cubit, News_State>(
         listener: (context, state) {},
         builder: (context, state) => MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'News App',
-          themeMode: newsCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
+          themeMode: News_Cubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
           theme: ThemeData(
             textTheme: TextTheme(bodyLarge: TextStyle(color: Colors.black)),
             primarySwatch: Colors.orange,
@@ -90,6 +111,7 @@ class MyApp extends StatelessWidget {
             scaffoldBackgroundColor: Colors.white,
           ),
           darkTheme: ThemeData(
+            dropdownMenuTheme: DropdownMenuThemeData(menuStyle: MenuStyle(backgroundColor: MaterialStatePropertyAll(Colors.black54))),
             applyElevationOverlayColor: false,
             primarySwatch: Colors.orange,
             scaffoldBackgroundColor: HexColor("#0A0A0A"),
@@ -124,9 +146,9 @@ class MyApp extends StatelessWidget {
                 elevation: 20,
                 selectedItemColor: Colors.orange),
           ),
-          home: newsHomePage(),
+          home: SplashScreen(),
         ),
       ),
-    );
+);
   }
 }
