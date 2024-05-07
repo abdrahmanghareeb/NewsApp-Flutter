@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -6,22 +7,29 @@ import 'package:news_app/Modules/business.dart';
 import 'package:news_app/Modules/science.dart';
 import 'package:news_app/Modules/settings.dart';
 import 'package:news_app/Modules/sports.dart';
-import 'package:news_app/shared/cubit/states.dart';
+import 'package:news_app/shared/cubit/Main_Cubit/states.dart';
 import 'package:news_app/shared/network/local/CasheHelper.dart';
 
-import '../network/remote/DioHelper.dart';
+import '../../network/remote/DioHelper.dart';
 
-class newsCubit extends Cubit<newsStates> {
+class News_Cubit extends Cubit<News_State> {
 
   //constructor
-  newsCubit() : super(intialSate());
+  News_Cubit() : super(intialSate());
 
   //create object
-  static newsCubit get(context) => BlocProvider.of(context);
+  static News_Cubit get(context) => BlocProvider.of(context);
+  List<String> ListCountry = ['Egypt', 'Armenia', 'India', 'China'];
+  List<String> listLanguage = ["ar" , "de" ,  "en" , "es" ,"fr" ,"he" , "it" , "nl" , "no",  "pt" ,"ru" , "sv" , "ud" ,"zh"];
+
+  void changeSetDropDownState() {
+    emit(SetDropDownState());
+  }
+
 
   //for the app theme
   bool isDark = false;
-  List<Widget> screens = [business(), sports(), science(), settings()];
+  List<Widget> screens = [business(), sports(), science(),  SettingsScreen()];
   List<BottomNavigationBarItem> bottomNavigationIcons = [
     BottomNavigationBarItem(
         icon: Icon(Icons.business_center_outlined), label: "business"),
@@ -142,5 +150,10 @@ class newsCubit extends Cubit<newsStates> {
     });
   }
 
-
+  void changeIconState(){
+    emit(IconState());
+  }
+  void ChangeSetFingerprintState(){
+    emit(IconState());
+  }
 }
